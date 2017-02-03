@@ -1,5 +1,3 @@
-// jshint esversion: 6
-
 function bubbleSort(array) {
   let newArray = array;
   let pass = false;
@@ -19,7 +17,7 @@ function bubbleSort(array) {
     }
 }
 
-let sortThis2 = [39, 4, 2, 8, 1, 30, 5];
+let sortThis2 = [39, 4, 30, 2, 8, 1, 30, 5];
 let sortThis = [2, 5, 1, 9, 3];
 console.log(bubbleSort(sortThis2));
 
