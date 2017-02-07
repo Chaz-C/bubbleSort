@@ -14,7 +14,9 @@ function bubbleSort(array) {
   return array;
 }
 
-let sortThis2 = [39, 4, 2, 5, 30, 8, 1, 30, 5];
+let sortThis2 = [39, 3.9, 4, 2, 5, 30, 8, 1, 30, 5];
+
+
 let sortThis = [2, 5, 1, 2, 9, 3];
 console.log(bubbleSort(sortThis2));
 
