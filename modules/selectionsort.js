@@ -18,6 +18,4 @@ function selectionSort(array) {
   return array;
 }
 
-let results = [2, 100, 5, 29, 4, 1, 45, 3, 9];
-
 module.exports = selectionSort;
