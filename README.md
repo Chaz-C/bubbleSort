@@ -12,7 +12,7 @@ loop through the array starting at the first value.
 
 compare it with the value to its right. swap places if its greater.
 
-continue making passes until array is fully sorted
+if nothing swaps, array is sorted
 ```
 
 
@@ -32,3 +32,22 @@ If current value is less than the comparison value, move comparison value over 1
 
 Keep pushing comparison values to the right until correct spot for current value is found.
 ```
+
+### Selection Sort
+
+Selection sort loops through an array starting from the left. It finds the lowest number in the array and swaps places with it. It keeps doing it with the next value in the array until everything swaps the correct order
+
+####Psuedo Code
+
+```sh
+start with index 0
+
+find lowest number in array
+
+swap if value in index 0 is greater
+
+do same process with next index until everything sorts
+```
+
+### Quick Sort
+
