@@ -51,3 +51,14 @@ do same process with next index until everything sorts
 
 ### Quick Sort
 
+Quick sort breaks an array down until they are single values while sorting them based on the "pivot" value.
+
+####Psuedo Code
+
+```sh
+take the first value in the array and use it as the "Pivot".
+
+
+
+```
+
